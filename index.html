@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Color Picker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Color Picker</h1>
+    
+    <input type="color" id="colorPicker" />
+
+    <div class="preview-box" id="previewBox">Preview</div>
+
+    <div class="format-section">
+      <div class="format-item">
+        <label>HEX</label>
+        <span id="hexValue">#ffffff</span>
+        <button class="copy-btn" data-type="hex">Copy</button>
+      </div>
+
+      <div class="format-item">
+        <label>RGB</label>
+        <span id="rgbValue">rgb(255, 255, 255)</span>
+        <button class="copy-btn" data-type="rgb">Copy</button>
+      </div>
+
+      <div class="format-item">
+        <label>HSL</label>
+        <span id="hslValue">hsl(0, 0%, 100%)</span>
+        <button class="copy-btn" data-type="hsl">Copy</button>
+      </div>
+
+      <p id="copiedMsg" class="hidden">Copied!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

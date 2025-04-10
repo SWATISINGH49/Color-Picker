@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #colorPicker {
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .preview-box {
+    height: 60px;
+    line-height: 60px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .format-section {
+    text-align: left;
+  }
+  
+  .format-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: 600;
+  }
+  
+  span {
+    flex-grow: 1;
+    margin: 0 10px;
+    font-family: monospace;
+  }
+  
+  .copy-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .copy-btn:hover {
+    background-color: #4f46e5;
+  }
+  
+  #copiedMsg {
+    text-align: center;
+    color: green;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
